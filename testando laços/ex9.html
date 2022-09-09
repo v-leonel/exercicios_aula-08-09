@@ -14,18 +14,17 @@
 
     <script>
     
-        let numero = parseInt(prompt("Digite um número para calcular o fibonacci"))
-        let soma = 0
+        let numero = 0
         let anterior = 0
         let proximo = 1
 
-        for (let i = 0; i <numero; i++){
-           soma = anterior + proximo
+        for (let i = 1; i<=13;  i++){
+           numero = anterior + proximo
            anterior = proximo
-           proximo = soma
+           proximo = numero
+           document.write("<br>" + numero )
         }
-        document.write("A sequencia de fibonacci de " + numero + " é: " +anterior)
-
+        
     </script>
 </body>
 </html>
