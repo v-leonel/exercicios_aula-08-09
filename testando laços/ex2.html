@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Faça um programa JavaScript que receba 3 números informados pelo usuário e em seguida apresente uma mensagem de alerta informando qual é o maior número dentre os números informados.</h1>
+
+    <script>
+
+        let n1 = parseInt(prompt("Insira o primeiro numero"));
+        let n2 = parseInt(prompt("Insira o segundo numero"));
+        let n3 = parseInt(prompt("Insira o terceiro numero"));
+
+
+        if(n1 > n2 && n1 > n3){
+            alert("Seu maior número é: " +n1)
+        }
+        else if(n2 > n1 && n2 > n3){
+            alert("Seu maior numero é: " +n2)
+        }
+        else{
+            alert("Seu maior número é: " +n3)
+        }
+        
+        
+
+
+    </script>
+</body>
+</html>

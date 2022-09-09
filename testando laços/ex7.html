@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body{
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: lightpink;
+        }
+        h1{
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabuada usando for</h1>
+
+    <script>
+
+        let numero = parseInt(prompt("Digite um número"))
+        for(let i=1; i<=10; i++){
+            let resultado = numero *i;
+            document.write("<br>" + numero + "x" +i +"="+ resultado)
+        }
+
+        
+    </script>
+
+    <!-- <script>
+
+        let numero = 1
+
+        for(numero=1; numero<=10; numero++){
+           let resultado = numero * 8
+           document.write(numero + " X " + " 8  =" +resultado + "<br>")
+        }
+
+    </script> -->
+
+
+
+</body>
+</html>

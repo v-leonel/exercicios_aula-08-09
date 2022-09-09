@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        #fundo{
+            background-color: lightslategray;
+            color: #000;
+            text-align: center;
+            border: 1px solid #fff;
+            border-radius: 15px ;
+        }
+        h1{
+            border: 2px solid black;
+            background-color: whitesmoke;
+            color: #000;
+            border-radius: 10px;
+        }
+
+        #botao{ 
+            width: 100px;
+            height: 100px;
+            background-color: #000;
+            color: #fff;
+            border: 1px solid #fff;
+            border-radius: 50px ;
+        }
+
+    </style>
+</head>
+<body id="fundo">
+    <header>
+        <h1>Criar uma função, 
+            que seja acionada por um botão, 
+            exibam todos os números ímpares, de 10 até 100.</h1>
+
+        <input type="button" value="botao" id="botao" name="botao" onclick="botao()">
+    </header>
+    
+
+    <script>
+
+        function botao(){
+            let numero = 1
+
+            for(numero=1; numero<=100; numero+=1){
+                document.write("<br>" +numero)
+            }
+        }
+
+    </script>
+
+</body>
+</html>
